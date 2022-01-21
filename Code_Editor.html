@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Code Editor </title>
+	<link rel="stylesheet" type="text/css" href="ed.css">
+
+<script>
+	function input(){
+		var code = document.getElementById("textarea").value;
+		document.getElementById("box").innerHTML = code;
+	}
+</script>
+</head>
+
+<body>
+     
+        <textarea id="textarea">  </textarea>
+      	<button onClick="input()" type="button" id="button"> Convert </button>
+      	<div id="box" ></div>
+     
+</body>
+</html>

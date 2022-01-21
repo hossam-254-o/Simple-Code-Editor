@@ -1,0 +1,56 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-size:400% 400% ;
+	background-image: linear-gradient(125deg , #2c3e50 , #27ae60 , #2980b9 , #e74c3c , #8e44ad);
+	animation: bganimation 10s infinite;
+}
+
+@keyframs bganimation{
+
+	0%{
+		background-position: 0% 50%;
+		
+	}
+
+	50%{
+		background-position: 100% 50%;
+	}
+
+	100%{
+		background-position: 0% 50%;
+	}
+}
+
+#textarea{
+	margin: 15px;
+	width: 70%;
+	height: 250px;
+	background: #191919;
+	color: white;
+	border: 10px solid gray;
+}
+#button{
+	width: 15%;
+	margin:5px;
+	margin-left: 40%;
+	height:100px;
+	background:black;
+	color:white;
+	font-size: larger;
+	font-weight:bolder;
+	font-family: monospace, monospace;
+	border-radius: 99px ;
+	border: 10px solid gray;
+
+}
+#box{
+  	
+	height: 250px;
+	margin: 15px;
+	width: 70%;
+	background:gray;
+	color: white;
+	border: 10px solid #191919;	
+}
